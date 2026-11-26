@@ -23,8 +23,8 @@ WHITE   = "#FFFFFF"
 
 # シーン定義: (開始秒, 終了秒, メインテキスト, サブテキスト, 文字色)
 SCENES = [
-    (0,  4,  "AI動画編集のコツ\n第１回",          "",                     ACCENT),
-    (4,  11, "テロップは\n１行で\n言い切る",        "長い文章は\n視聴者に読ませない",  WHITE),
+    (0,  4,  "AI動画編集のコツ\n第２回",          "",                     ACCENT),
+    (4,  11, "効果音は\n入れすぎない",             "音が多いと\n内容が入らない",      WHITE),
     (11, 15, "明日から\n使えます。",               "",                     ACCENT),
 ]
 
@@ -110,7 +110,7 @@ def render_video():
     frames_dir = f"{OUT_DIR}/frames"
     os.makedirs(frames_dir, exist_ok=True)
     bgm_path = f"{OUT_DIR}/bgm.wav"
-    out_path  = f"{OUT_DIR}/ep01_telop.mp4"
+    out_path  = f"{OUT_DIR}/ep02_sound.mp4"
 
     total_frames = FPS * DURATION
     print(f"フレーム生成中... ({total_frames}枚)")
