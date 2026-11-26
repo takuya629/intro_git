@@ -1,0 +1,15 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Telop,IPAPGothic,56,&H00FFFFFF,&H00FFFFFF,&H00402814,&H96000000,1,0,0,0,100,100,0,0,1,7,3,2,30,30,190,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.45,0:00:05.70,Telop,,0,0,0,,実はこの動画、\NClaude Codeで作りました。
+Dialogue: 0,0:00:06.10,0:00:09.30,Telop,,0,0,0,,写真と台本を\N渡すだけで、
+Dialogue: 0,0:00:09.40,0:00:15.20,Telop,,0,0,0,,声も口の動きも\N一度に仕上がります。
